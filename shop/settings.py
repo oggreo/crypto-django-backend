@@ -25,8 +25,9 @@ SECRET_KEY = os.environ['DJANGO_SECRET']
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    "https://crypto-joe-django.herokuapp.com/",
-    "127.0.0.1"
+    '*'
+    # "https://crypto-joe-django.herokuapp.com/",
+    # "127.0.0.1"
 ]
 
 CORS_ORIGIN_WHITELIST = [
